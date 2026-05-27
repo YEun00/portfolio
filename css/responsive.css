@@ -217,6 +217,15 @@
     margin: auto;
   }
 
+  /*work*/
+  .work-wrap .list .result .text-box .tit {
+    font-size: 3.6rem;
+  }
+
+  .work-wrap .list .result .text-box .sub-tit {
+    font-size: 2.4rem;
+  }
+
   /*footer*/
   .experience-wrap .name {
     font-size: 6rem;
