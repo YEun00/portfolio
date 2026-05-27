@@ -169,7 +169,7 @@
   }
 
   100% {
-    transform: translate(-50%, -50%);
+    transform: translate(0%, -50%);
     scale: 1;
   }
 }
@@ -275,7 +275,6 @@
   transition: all 0.8s ease;
 }
 
-
 .home-wrap .content .diagram-box .diagram.num-01 {
   left: 50%;
   top: 50%;
@@ -295,7 +294,7 @@
 
 .home-wrap .content .diagram-box.on .diagram.num-02 {
   left: 63%;
-  top: -37%;
+  top: -45%;
 }
 
 .home-wrap .content .diagram-box .diagram.num-03 {
@@ -306,7 +305,7 @@
 
 .home-wrap .content .diagram-box.on .diagram.num-03 {
   left: 12%;
-  bottom: -40%;
+  bottom: -55%;
 }
 
 .home-wrap .content .diagram-box .diagram.num-04 {
@@ -349,11 +348,13 @@
   width: 2px;
   height: 8rem;
   transform: translateX(-50%);
-  background: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0),
-      #8eff864f,
-      #8FFF86,
-      rgba(255, 255, 255, 0));
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    #8eff864f,
+    #8fff86,
+    rgba(255, 255, 255, 0)
+  );
   opacity: 0;
   animation: laserMove 1.6s cubic-bezier(1, 1, 1, 1) infinite;
 }
@@ -610,11 +611,13 @@
   content: "";
   position: absolute;
   inset: -200%;
-  background: conic-gradient(from 0deg,
-      transparent,
-      #00ff88,
-      transparent,
-      transparent);
+  background: conic-gradient(
+    from 0deg,
+    transparent,
+    #00ff88,
+    transparent,
+    transparent
+  );
   opacity: 1;
   transition: opacity 0.3s ease;
   animation: rotateBorder 2s linear infinite;
@@ -813,7 +816,7 @@
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background-color: #8FFF86;
+  background-color: #8fff86;
   transform: translateY(-50%);
 }
 
