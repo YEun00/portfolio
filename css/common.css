@@ -31,7 +31,7 @@ body.resizing * {
   /* mix-blend-mode: difference; */
   filter: blur(140px);
 
-    opacity: 0;
+  opacity: 0;
   transition: opacity 0.3s ease;
 }
 
