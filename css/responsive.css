@@ -124,6 +124,11 @@
 /*mobile-Large*/
 @media (max-width: 768px) {
 
+  /*common*/
+  .cursor {
+    display: none;
+  }
+
   /*header*/
   .head-wrap .head-con .move-bar {
     gap: 6rem;
@@ -138,6 +143,10 @@
   }
 
   /*home*/
+  .home-wrap .dot {
+    opacity: 1;
+  }
+
   .home-wrap .content .text-box .tit {
     font-size: 7rem;
   }
@@ -154,6 +163,10 @@
   .intro-wrap .content .right .list .item {
     opacity: 1;
     transform: translateY(0);
+  }
+
+  .intro-wrap .content .right .list img {
+    width: 5rem;
   }
 
   /*work*/
@@ -200,6 +213,11 @@
     font-size: 6rem;
   }
 
+  .home-wrap .content .text-box .txt {
+    max-width: 60%;
+    margin: auto;
+  }
+
   /*footer*/
   .experience-wrap .name {
     font-size: 6rem;
@@ -244,7 +262,7 @@
 
 @media all and (max-width: 480px) {
   html {
-    font-size: 1.322vw;
+    font-size: 1.422vw;
   }
 
   /* 10 */
@@ -252,7 +270,7 @@
 
 @media all and (max-width: 412px) {
   html {
-    font-size: 1.322vw;
+    font-size: 1.422vw;
   }
 
   /* 10 */
@@ -260,7 +278,7 @@
 
 @media all and (max-width: 390px) {
   html {
-    font-size: 1.322vw;
+    font-size: 1.422vw;
   }
 
   /* 10 -> 8.5 */
