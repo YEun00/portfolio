@@ -1,9 +1,9 @@
 /*pc*/
-@media (max-width: 1800px) {}
+@media (max-width: 1800px) {
+}
 
 /*notebook*/
 @media (max-width: 1280px) {
-
   /*experience*/
   .experience-wrap .name {
     font-size: 8rem;
@@ -13,12 +13,10 @@
   .project-wrap .title-box .tit {
     font-size: 6rem;
   }
-
 }
 
 /*tablet*/
 @media (max-width: 1024px) {
-
   br {
     display: none;
   }
@@ -43,6 +41,10 @@
 
   .home-wrap .content .diagram-box {
     display: none;
+  }
+
+  .home-wrap .content .text-box .txt {
+    font-size: 2.2rem;
   }
 
   /*intro*/
@@ -118,12 +120,10 @@
   .project-wrap .project-cont .list .p-name .name {
     opacity: 1;
   }
-
 }
 
 /*mobile-Large*/
 @media (max-width: 768px) {
-
   /*common*/
   .cursor {
     display: none;
@@ -202,18 +202,17 @@
   .project-wrap .project-cont .list .p-name .name {
     font-size: 2.8rem;
   }
-
 }
 
 /*mobile*/
 @media (max-width: 480px) {
-
   /*home*/
   .home-wrap .content .text-box .tit {
     font-size: 6rem;
   }
 
   .home-wrap .content .text-box .txt {
+    font-size: 2.4rem;
     max-width: 60%;
     margin: auto;
   }
@@ -230,7 +229,6 @@
   #footer .footer-wrap .cont-box .contact-info dl {
     margin-right: 0;
   }
-
 }
 
 /* ========================================================
