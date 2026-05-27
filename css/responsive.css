@@ -223,6 +223,14 @@
     font-size: 6rem;
   }
 
+  #footer .footer-wrap .cont-box .contact-info {
+    flex-direction: column;
+  }
+
+  #footer .footer-wrap .cont-box .contact-info dl {
+    margin-right: 0;
+  }
+
 }
 
 /* ========================================================
